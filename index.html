@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark de Oliveira Singh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="profile">
+                <img src="/profile-pic/perfil-com-fundo.png" alt="Profile Picture" class="profile-img">
+                <h1>Mark de Oliveira Singh</h1>
+                <p class="subtitle">CC Student | Python Developer</p>
+                <p class="location"><i class="fa-solid fa-location-dot" style="color: #000000;"></i> Rio de Janeiro,
+                    Brazil</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="sections">
+                <!-- About Section -->
+                <div class="section">
+                    <h2>About</h2>
+                    <p class="about-text">
+                        I am a Computer Science student passionate about data analysis and developing innovative
+                        projects.
+                        I have experience with SQL and Python, and I am looking for opportunities to apply my skills in
+                        challenging and dynamic environments.
+                        My goal is to grow in the field of data engineering and machine learning, contributing to
+                        impactful technological solutions.
+                    </p>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="section">
+                    <h2>Skills</h2>
+                    <div class="skill">
+                        <h3 class="skill-title">MySQL</h3>
+                        <a href="https://www.mysql.com/" class="skill-link">MySQL</a>
+                        <p class="skill-description">
+                            MySQL is a popular and powerful database that powers many of the world’s most accessed
+                            applications, including Facebook, Twitter, Netflix, and Airbnb.
+                        </p>
+                    </div>
+                    <!-- Add more skills here -->
+                </div>
+
+                <!-- Personal Projects Section -->
+                <div class="section">
+                    <h2>Personal Projects</h2>
+                    <div class="project">
+                        <h3 class="project-title">Data analysis</h3>
+                        <p class="project-date">02/2024</p>
+                        <p class="project-description">A simple data analysis.</p>
+                        <div class="project-tools">
+                            <span class="tool">Python</span>,
+                            <span class="tool">MySQL</span>,
+                            <span class="tool">Pandas</span>,
+                            <span class="tool">Mathplot</span>,
+                        </div>
+                        <a href="#" class="project-link">View project</a>
+                    </div>
+                    <!-- Add more projects here -->
+
+                </div>
+
+                <!-- Certifications Section -->
+                <div class="section">
+                    <h2>Certifications</h2>
+                    <div class="certification">
+                        <h3 class="certification-title">AWS Certified Cloud Practitioner</h3>
+                        <p class="certification-date">99/9999 - 99/9999</p>
+                        <p class="certification-description">
+                            ex:
+                            The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS
+                            Cloud, services, and terminology.
+                        </p>
+                        <div class="certification-tools">
+                            <span class="tool">aws cloud</span>
+                        </div>
+                        <a href="#" class="certification-link">View Certificate</a>
+                    </div>
+                    <!-- Add more certifications here -->
+
+                </div>
+
+                <!-- Want My CV Section -->
+                <div class="section">
+                    <h2>Want my CV?</h2>
+                    <div class="cv-buttons">
+                        <a href="#" class="cv-button cv-pt">Download CV (PT-BR)</a>
+                        <a href="#" class="cv-button cv-en">Download CV (EN)</a>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="section">
+                    <h2>Contact</h2>
+                    <div class="contact-buttons">
+                        <button class="contact-button" onclick="copyEmail()">Copy Email</button>
+                        <a href="https://github.com/MKSodhi" class="contact-button"
+                            target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/mark-de-oliveira-singh-4816b7261/" class="contact-button"
+                            target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 developed by Mark de Oliveira Singh</p>
+        </footer>
+    </div>
+
+    <script>
+        function copyEmail() {
+            const email = 'oliveira.singh@gmail.com'; // email over her!!
+            navigator.clipboard.writeText(email).then(() => {
+                alert('Email copied to clipboard');
+            }).catch(err => {
+                console.error('Failed to copy email: ', err);
+            });
+        }
+    </script>
+</body>
+
+</html>
