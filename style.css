@@ -1,0 +1,274 @@
+/* Certifique-se de que o fundo escuro cubra toda a área da página */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto clara */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto clara */
+}
+
+
+/* Container geral para todo o conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #e0e0e0; /* Cor do texto clara */
+}
+
+/* Estilização básica para cada seção */
+.section {
+    margin-bottom: 40px;
+}
+
+/* Título de cada seção */
+.section h2 {
+    font-size: 28px;
+    color: #ffffff; /* Cor do texto clara */
+    border-bottom: 2px solid #333; /* Linha de separação escura */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilização específica para as skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1 1 45%; 
+    background-color: #1e1e1e; /* Fundo escuro para as skills */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra mais escura */
+}
+
+.skill-title {
+    font-size: 22px;
+    color: #ffffff; /* Cor do texto clara */
+    margin-bottom: 10px;
+}
+
+.skill-link {
+    color: #76baff; /* Azul claro para o link */
+    text-decoration: none;
+}
+
+.skill-link:hover {
+    text-decoration: underline;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #b3b3b3; /* Cinza claro para o texto */
+}
+
+/* Estilização específica para os projetos */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-color: #1e1e1e; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.project-title {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.project-date {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.project-tools {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    color: #76baff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilização específica para as certificações */
+.certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certification {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.certification-title {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.certification-date {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.certification-description {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.certification-tools {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.certification-link {
+    color: #76baff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certification-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilização dos botões de CV */
+.cv-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.cv-button {
+    background-color: #333333; /* Fundo escuro para os botões */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #555555; /* Fundo mais claro ao passar o mouse */
+}
+
+/* Estilização dos botões de contato */
+.contact-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #555555;
+}
+
+
+/* Estilização do Header */
+header {
+    background-color: #1e1e1e; /* Fundo escuro para o header */
+    padding: 20px; 
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+.profile {
+    display: inline-block;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid #333333; /* Borda escura em volta da imagem */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.location i {
+    margin-right: 5px;
+    color: #ff5555; /* Vermelho mais escuro para o ícone */
+}
+
+/* Estilos adicionais para tornar o design mais minimalista */
+a {
+    color: #76baff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+p, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+ 
