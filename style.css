@@ -192,7 +192,7 @@ html, body {
     margin-bottom: 15px;
 }
 
-.tool {
+.tool-p {
     background-color: #333333;
     color: #ffffff;
     padding: 5px 10px;
@@ -211,6 +211,7 @@ html, body {
     margin-left: 5px;
     color: #1e90ff;
 }
+
 .project-link:hover {
     text-decoration: underline;
 }
@@ -224,39 +225,66 @@ html, body {
 
 .certification {
     background-color: #1e1e1e;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 
 .certification-title {
-    font-size: 22px;
-    color: #ffffff;
-    margin-bottom: 5px;
+    font-size: 28px;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .certification-date {
     font-size: 14px;
-    color: #999999;
-    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
 
 .certification-description {
-    font-size: 16px;
+    font-size: 24px;
     color: #b3b3b3;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .certification-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tool-c {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
     font-size: 14px;
-    color: #b3b3b3;
-    margin-bottom: 10px;
 }
 
 .certification-link {
-    color: #76baff;
+    font-size: 18px;
+    color: #1e90ff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.certification-link i {
+    margin-left: 5px;
+    color: #1e90ff;
 }
 
 .certification-link:hover {
